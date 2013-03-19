@@ -1,5 +1,5 @@
 # require File.dirname(__FILE__) + '/../../my_app'
-require File.dirname(__FILE__) + '/../my_app'
+require_relative '../my_app.rb'
 
 require 'capybara'
 require 'capybara/dsl'
